@@ -1,0 +1,161 @@
+.hader{
+    background-color:#0097e6;
+    padding: 20px 0;
+}
+.hader-logo img{
+    width: 222px;
+    height: 63px;
+    
+    
+}
+
+.hader-manu ul{
+    margin-bottom: 0;
+    text-align: center;
+}
+.hader-manu ul li{
+    display: inline-block;
+}
+.hader-manu ul li a{
+    display: block;
+    color: white;
+    padding: 0 20px;
+    font-size: 15px;
+    line-height: 65px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.hader-manu ul li:hover a{
+    background-color:white;
+    color: black;
+    transition: .7s;
+    border-radius: 20px;
+}
+
+/* baneer  */
+.baneer{
+    background-image: url(./getty_469157341_114198.jpg);
+    padding: 233px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    color:whitesmoke;
+    background-position: bottom;
+}
+.baneer-text{
+    text-align: center;
+}
+.baneer-text h2{
+    font-size: 60px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.baneer-text button{
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    margin-top: 40px;
+    z-index: 1;
+}
+.baneer-text button::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: chartreuse;
+    border-radius: 8px;
+    transition: .7s;
+    z-index: -1;
+}
+.baneer-text button:hover::before{
+    left: 51%;
+    right: 51%;
+}
+/* service */
+.service{
+    background-color: #7f8fa6;
+    padding: 35px 0;
+}
+.service h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 35px 0;
+}
+.service1 img{
+    width: 150px;
+    height: 200px;
+   margin-top: 20px;
+}
+.service1 button{
+    text-align: center;
+    border: none;
+    background-color: #00a8ff;
+    color: white;
+    border-radius: 7px;
+    padding: 7px 15px;
+    margin-left: 25px;
+    font-size: 25px;
+}
+.service1 button:hover{
+    background-color: #44bd32;
+    color: black;
+    transition: .7s;
+}
+/* contuct section */
+
+.contuec{
+   padding: 5%;
+    background-color: #dcdde1;
+}
+.contuec h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+.contuec h3{
+    text-align: center;
+    font-size: 45px;   
+}
+
+/* fotter section */
+
+.fotter{
+    background-color: burlywood;
+}
+.fotter-text{
+    text-align: left;
+    color: white;
+    padding: 10px;
+}
+.social-icon{}
+.social-icon ul{
+    margin-bottom: 0;
+    text-align: right;
+
+}
+.social-icon ul li{
+    display: inline-block;
+}
+.social-icon ul li a{
+    display: block;
+    color: #0097e6;
+    padding: 0 15px;
+    font-size: 35px;
+    line-height: 65px;
+    text-decoration: none;
+}
+
+.social-icon ul li i:hover {
+    background-color: black;
+    transition: .7s;
+    color: white;
+    border-radius: 8px;
+}
